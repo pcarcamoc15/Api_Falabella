@@ -1,0 +1,25 @@
+{
+  "name": "rick",
+  "version": "1.0.0",
+  "description": "Api Rick Morty",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcarcamoc15/Api_Falabella.git"
+  },
+  "author": "Pamela Cárcamo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pcarcamoc15/Api_Falabella/issues"
+  },
+  "homepage": "https://github.com/pcarcamoc15/Api_Falabella#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.3.2"
+  }
+}
