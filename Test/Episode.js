@@ -22,6 +22,8 @@ describe('Get episode:', () => {
     });
 /**
  * Busqueda por ID y número de Episodio con comprobación de datos
+ * @param string 2
+ * @param string S01E02
  */
     it('id 2 episode = S01E02', (done) => {
         chai.request(url)

@@ -11,6 +11,7 @@ const url = 'https://rickandmortyapi.com';
 describe('Get character, location, episode:', () => {
 /**
  * Estado 404 para Personajes
+ * @param string pamela
  */
     it('Error 404 Character', (done) => {
         chai.request(url)
@@ -23,6 +24,7 @@ describe('Get character, location, episode:', () => {
     });
 /**
  * Estado 404 para Ubicación
+ * @param string pluton
  */
     it('Error 404 Location', (done) => {
         chai.request(url)
@@ -35,6 +37,7 @@ describe('Get character, location, episode:', () => {
     });
 /**
  * Estado 404 para Episodios
+ * @param string S55E02
  */
     it('Error 404 Episode', (done) => {
         chai.request(url)

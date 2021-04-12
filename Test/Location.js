@@ -25,6 +25,8 @@ describe('Get location:', () => {
     });
 /**
  * Filtro por Id y nombre de localización con comprobación de datos
+ * @param string 3
+ * @param string Citadel of Ricks
  */
     it('id 3 name = Citadel of Ricks', (done) => {
         chai.request(url)

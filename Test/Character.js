@@ -21,6 +21,8 @@ describe('Get character:', () => {
     });
 /**
  * Filtro por Id y nombre de Personaje con comprobación de datos
+ * @param string 1
+ * @param string Rick Sanchez
  */
     it('id 1 name = Rick Sanchez', (done) => {
         chai.request(url)
