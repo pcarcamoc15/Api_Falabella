@@ -1,3 +1,7 @@
+/**
+ * @name Estatus 200 Respuesta OK
+ */
+
 let chai = require('chai');
 let chaiHttp = require('chai-http');
 const expect = require('chai').expect;
@@ -6,6 +10,9 @@ chai.use(chaiHttp);
 const url = 'https://rickandmortyapi.com';
 
 describe('Get location, episode, character:', () => {
+/**
+ * Estado 200 para Ubicación
+ */
     it('Estatus 200 Location', (done) => {
         chai.request(url)
             .get('/api/location')
@@ -15,6 +22,9 @@ describe('Get location, episode, character:', () => {
             });
             done();
     });
+/**
+ * Estado 200 para Episodios
+ */
     it('Estatus 200 Episode', (done) => {
         chai.request(url)
             .get('/api/episode')
@@ -24,6 +34,9 @@ describe('Get location, episode, character:', () => {
             });
             done();
     });
+/**
+ * Estado 200 para Personajes
+ */
     it('Estatus 200 Character', (done) => {
         chai.request(url)
             .get('/api/character')

@@ -1,12 +1,19 @@
+/**
+ * @name Ubicación
+ * @sourse Get Location
+ */
+
 let chai = require('chai');
 let chaiHttp = require('chai-http');
+let assert    = require("chai").assert;
 const expect = require('chai').expect;
-
 
 chai.use(chaiHttp);
 const url = 'https://rickandmortyapi.com';
-let assert    = require("chai").assert;
 
+/**
+ * Estado 200 Api Ubicación
+ */
 describe('Get location:', () => {
     it('Estatus Code 200', (done) => {
         chai.request(url)
@@ -16,6 +23,9 @@ describe('Get location:', () => {
             });
         done();
     });
+/**
+ * Filtro por Id y nombre de localización con comprobación de datos
+ */
     it('id 3 name = Citadel of Ricks', (done) => {
         chai.request(url)
             .get('/api/location?id=3&name=Citadel of Ricks')

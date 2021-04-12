@@ -4,7 +4,8 @@
   "description": "Api Rick Morty",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec"
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "docs": "jsdoc -c jsdoc.json"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,9 @@
     "axios": "^0.21.1",
     "chai": "^4.3.4",
     "chai-http": "^4.3.0",
-    "mocha": "^8.3.2"
+    "document": "^0.4.7",
+    "jsdoc": "^3.6.6",
+    "mocha": "^8.3.2",
+    "this": "^1.1.0"
   }
 }
