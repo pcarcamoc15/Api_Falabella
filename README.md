@@ -11,4 +11,4 @@ Generar JsDoc = npm run docs
 Ejecución de Test = npm test
 
 Documentación Api Rick And Morty = https://rickandmortyapi.com/documentation/#rest
-Prueba Clase
+final
